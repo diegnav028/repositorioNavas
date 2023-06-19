@@ -1942,8 +1942,7 @@ if(dam.clave3=="alien"){
             enemigo1.vida=enemigo1.vida-(car.ataque+dam);
             comprobarEnemigos();
             document.getElementById("vida-enemigo1").innerHTML=enemigo1.vida;
-    document.getElementById("vida-enemigo2").innerHTML=enemigo2.vida;
-    document.getElementById("vida-enemigo3").innerHTML=enemigo3.vida;
+   
 
         }
 
@@ -2075,8 +2074,7 @@ document.getElementById("vida-enemigo3").innerHTML=enemigo3.vida;
     enemigo1.vida=enemigo1.vida-(car.ataque+dam);
     comprobarEnemigos();
     document.getElementById("vida-enemigo1").innerHTML=enemigo1.vida;
-document.getElementById("vida-enemigo2").innerHTML=enemigo2.vida;
-document.getElementById("vida-enemigo3").innerHTML=enemigo3.vida;
+
 
 }
 escudo=escudo+(Math.round((car.ataque+dam)/2));
@@ -2135,8 +2133,7 @@ document.getElementById("vida-enemigo3").innerHTML=enemigo3.vida;
     enemigo1.vida=enemigo1.vida-(Math.round((car.ataque+dam)/2));
     comprobarEnemigos();
     document.getElementById("vida-enemigo1").innerHTML=enemigo1.vida;
-document.getElementById("vida-enemigo2").innerHTML=enemigo2.vida;
-document.getElementById("vida-enemigo3").innerHTML=enemigo3.vida;
+
 
 }
 escudo=escudo+(car.ataque+dam);
